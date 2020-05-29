@@ -17,4 +17,17 @@ embedding = lle.fit_transform(X)
 ## Examples
 The code is tested on Fishbowl and Swissroll data and the results are as follows:
 
-![drawing](./plots/SwissRoll.png) ![drawing](./plots/FishBowl.png)
+<center>
+<div>
+  <table>
+    <tr>
+      <td><img src="plots/SwissRoll.png"/></td>
+      <td><img src="plots/FishBowl.png"/></td>
+    </tr>
+    <tr>
+      <td align="center"><em>Swissroll</em></td>
+      <td align="center"><em>Fishbowl</em></td>
+    </tr>
+  </table>
+</div>
+</center>
