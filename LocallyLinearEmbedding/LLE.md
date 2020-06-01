@@ -3,8 +3,7 @@ This is a python implementation of the [Locally Linear Embedding](https://cs.nyu
 which is an unsupervised machine learning algorithm for dimensionality reduction.
 
 ## Requirements 
-The code is tested with:
-  * Python 3.6
+[![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
 
 ## Usage 
 ``` python
