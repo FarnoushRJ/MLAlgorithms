@@ -15,12 +15,10 @@ gmm.fit(X)
 ```
 
 ## Examples
-The code is tested on Fishbowl and Swissroll data and the results are as follows:
-
 <div>
   <table>
     <tr>
-      <td><img src="plots/myplot.png"/></td>
+      <td><img src="plots/myplot.png"/ style"width=300; height=300"></td>
     </tr>
     <tr>
       <td align="center"><em>Gaussian Mixture Models Result</em></td>
