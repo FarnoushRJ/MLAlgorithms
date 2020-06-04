@@ -8,7 +8,9 @@ which is an unsupervised machine learning algorithm for dimensionality reduction
 ## Usage 
 
 In the following example, I have applied LLE to the Swiss-Roll data and visualized the final result.
-**Code**
+
+### Code
+
 ``` python
 from LocallyLinearEmbedding.LLE import LLE
 import numpy as np
@@ -46,12 +48,12 @@ if __name__ == '__main__':
     plt.show()
 ```
 
-**Result**
+### Result
 <center>
 <div>
   <table>
     <tr>
-      <td><img src="plots/LLE_SwissRoll.png"/></td>
+      <td><img src="plots/LLE_SwissRoll.png" width=600, height=1000/></td>
     </tr>
     <tr>
       <td align="center"><em>LLE Result on the SwissRoll Data</em></td>
