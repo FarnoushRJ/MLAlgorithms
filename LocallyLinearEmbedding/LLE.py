@@ -83,10 +83,3 @@ class LLE:
         self.embedding = u[:, idx]
 
         return self.embedding
-
-
-
-
-
-
-
