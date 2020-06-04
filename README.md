@@ -1,6 +1,8 @@
 # Machine Learning Algorithms
 Python Implementation of Various Machine Learning Algorithms. 
 
+If you find this code useful, please star the repository.
+
 ## Algorithms
   * Unsupervised Learning
     * [Locally Linear Embedding](LocallyLinearEmbedding/LLE.md)

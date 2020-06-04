@@ -7,14 +7,6 @@ which is an unsupervised machine learning algorithm that is used for clustering.
 [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
 
 ## Usage 
-``` python
-from GaussianMixtureModels.GMM import GMM
-
-gmm = GMM(n_neighbors=5, max_iters=100, init_kmeans=False, tol=1e-6)
-gmm.fit(X)
-```
-
-## Examples
 In the following example, I have applied GMM to the Iris dataset and visualized the final result.
 
 **Code**
@@ -65,3 +57,7 @@ if __name__ == '__main__':
     </tr>
   </table>
 </center>
+
+
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
