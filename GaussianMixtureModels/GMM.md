@@ -13,7 +13,7 @@ which is an unsupervised machine learning algorithm that is used for clustering.
 ## Usage 
 In the following example, I have applied GMM to the Iris dataset and visualized the final result.
 
-**Code**
+### Code
 ``` python
 from GaussianMixtureModels.GMM import GMM
 from sklearn import datasets
@@ -42,7 +42,7 @@ if __name__ == '__main__':
     plot_gmm(gmm, X, colors, xy_labels=xy_labels)
 ```
 
-**Final Result**
+### Final Result
 
 <center>
   <table>
