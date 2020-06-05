@@ -9,11 +9,13 @@ If you find this code useful, please star the repository.
     * [Gaussian Mixture Models](GaussianMixtureModels/GMM.md)
     * K-Means Clustering
     * Principal Component Analysis
+    * Agglomerative Clustering
    
    * Supervised Learning
      * Linear Regression
      * Kernel Ridge Regression
      * Support Vector Machines
+     * Linear Discriminant Analysis
 
 ## Task List
 - [x] Locally Linear Embedding
@@ -23,6 +25,8 @@ If you find this code useful, please star the repository.
 - [ ] Linear Regression
 - [ ] Kernel Ridge Regression
 - [ ] Support Vector Machines
+- [ ] Linear Discriminant Analysis
+- [ ] Agglomerative Clustering
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
