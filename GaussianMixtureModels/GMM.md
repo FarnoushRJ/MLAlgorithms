@@ -7,8 +7,8 @@ which is an unsupervised machine learning algorithm that is used for clustering.
 [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
 
 **Other Reguirements**
-    - numpy==1.18
-    - matplotlib==3.2
+- numpy==1.18
+- matplotlib==3.2
 
 ## Usage 
 In the following example, I have applied GMM to the Iris dataset and visualized the final result.
@@ -47,7 +47,7 @@ if __name__ == '__main__':
 <center>
   <table>
     <tr>
-      <td><img src="plots/GMM_IRIS.png" with=500 height=500/></td>
+      <td><img src="plots/GMM_IRIS.png" with=600 height=300/></td>
     </tr>
     <tr>
       <td align="center"><em>Gaussian Mixture Models Result</em></td>
