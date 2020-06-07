@@ -14,6 +14,7 @@ class KMeans:
         self.max_iter = max_iter
 
     def _assignment(self, X):
+        """ Assignment step """
         (num, dim) = X.shape
         for i, x in enumerate(X):
             x = x.reshape(1, dim)
@@ -22,6 +23,7 @@ class KMeans:
         return self
 
     def _update(self, X):
+        """ Cluster update step"""
         criterion = 0
         (num, dim) = X.shape
         for i in range(self.n_components):
@@ -40,6 +42,10 @@ class KMeans:
         return criterion
 
     def fit(self, X):
+        """
+        :param X: Array_like of shape [numbers, dimensions]
+        :return: self
+        """
         (num, dim) = X.shape
         self._labels = np.empty(num, dtype=int)
         prev_labels = np.empty(num, dtype=int)
@@ -72,7 +78,3 @@ class KMeans:
     @property
     def criterion(self):
         return self.criterion
-
-
-
-
