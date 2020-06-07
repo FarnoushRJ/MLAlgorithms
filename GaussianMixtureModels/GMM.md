@@ -30,7 +30,7 @@ if __name__ == '__main__':
     # Apply GMM
     # ---------------------
     X = np.stack([X[:, 2], X[:, 3]]).T
-    gmm = GMM(n_neighbors=3, max_iters=100, init_kmeans=False, tol=1e-6)
+    gmm = GMM(n_components=3, max_iters=100, init_kmeans=False, tol=1e-6)
     gmm.fit(X)
 
     # Visualization

@@ -4,18 +4,18 @@ from KMeansClustering.KMeans import KMeans
 
 class GMM:
     def __init__(self,
-                 n_neighbors: int,
+                 n_components: int,
                  max_iters: int = 100,
                  init_kmeans: bool = False,
                  tol: float = 1e-5):
         """
-        :param n_neighbors: Number of neighbors
+        :param n_components: Number of Gaussian components
         :param max_iters: Maximum number of iterations
         :param init_kmeans: Use K-Means initialization or not
         :param tol: Tolerance
         """
 
-        self.n_neighbors = n_neighbors
+        self.n_components = n_components
         self.max_iters = max_iters
         self.init_kmeans = init_kmeans
         self.tol = tol
@@ -49,7 +49,7 @@ class GMM:
         (num, dim) = X.shape
         likelihood = np.zeros(num)
 
-        for i in range(self.n_neighbors):
+        for i in range(self.n_components):
             self._sigma[i] = self._sigma[i] + (self.tol * np.eye(dim))  # regularization
             norm_pdf = self._pdf(X, self._mu[i], self._sigma[i])
             self._weights[:, i] = self._pi[i] * norm_pdf
@@ -63,9 +63,9 @@ class GMM:
         (num, dim) = X.shape
         num_k = np.sum(self._weights, axis=0)
         self._pi = num_k / num
-        self._mu = np.dot(self._weights.T, X) / num_k .reshape(self.n_neighbors, 1)
+        self._mu = np.dot(self._weights.T, X) / num_k .reshape(self.n_components, 1)
 
-        for i in range(self.n_neighbors):
+        for i in range(self.n_components):
             diff = X - self._mu[i]
             self._sigma[i] = np.dot((self._weights[:, i] * diff.T), diff) / num_k[i]
         return self
@@ -81,11 +81,11 @@ class GMM:
             kmeans = KMeans()
             # TODO: complete this part after implementing k-means
         else:
-            idx = np.random.choice(range(num), self.n_neighbors, replace=False)
+            idx = np.random.choice(range(num), self.n_components, replace=False)
             self._mu = X[idx, :]
 
-        self._pi = np.full([self.n_neighbors], float(1) / float(self.n_neighbors))
-        self._weights = np.empty([num, self.n_neighbors], dtype=float)
+        self._pi = np.full([self.n_components], float(1) / float(self.n_components))
+        self._weights = np.empty([num, self.n_components], dtype=float)
         self._sigma = np.full([num, dim, dim], np.eye(dim))
 
         llv_prev = 0.0  # previous log-likelihood
