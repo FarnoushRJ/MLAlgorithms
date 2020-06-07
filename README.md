@@ -7,7 +7,7 @@ If you find this code useful, please star the repository.
   * Unsupervised Learning
     * [Locally Linear Embedding](LocallyLinearEmbedding/LLE.md)
     * [Gaussian Mixture Models](GaussianMixtureModels/GMM.md)
-    * K-Means Clustering
+    * [K-Means Clustering](KMeansClustering/KMeans.md)
     * Principal Component Analysis
     * Agglomerative Clustering
    
@@ -20,7 +20,7 @@ If you find this code useful, please star the repository.
 ## Task List
 - [x] Locally Linear Embedding
 - [x] Gaussian Mixture Models
-- [ ] K-Means Clustering
+- [x] K-Means Clustering
 - [ ] Principal Component Analysis
 - [ ] Linear Regression
 - [ ] Kernel Ridge Regression

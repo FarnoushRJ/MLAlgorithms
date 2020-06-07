@@ -78,8 +78,9 @@ class GMM:
         (num, dim) = X.shape
 
         if self.init_kmeans:
-            kmeans = KMeans()
-            # TODO: complete this part after implementing k-means
+            kmeans = KMeans(n_components=self.n_components, max_iter=self.max_iters)
+            kmeans.fit(X)
+            self._mu = kmeans.cluster_centers
         else:
             idx = np.random.choice(range(num), self.n_components, replace=False)
             self._mu = X[idx, :]
