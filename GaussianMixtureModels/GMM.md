@@ -7,8 +7,8 @@ which is an unsupervised machine learning algorithm that is used for clustering.
 [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
 
 **Other Reguirements**
-- numpy==1.18
-- matplotlib==3.2
+- numpy==1.18.4
+- matplotlib==3.2.1
 
 ## Usage 
 In the following example, I have applied GMM to the Iris dataset and visualized the final result.
