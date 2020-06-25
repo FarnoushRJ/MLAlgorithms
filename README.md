@@ -1,4 +1,9 @@
-# Machine Learning Algorithms
+ <p align="center">
+    <img src="logo.svg" height="300" title="My ML Repository Logo">
+ </p>
+ 
+***
+  
 Python Implementation of Various Machine Learning Algorithms. 
 
 If you find this code useful, please star the repository.
