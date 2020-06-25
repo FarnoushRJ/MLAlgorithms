@@ -8,7 +8,7 @@ If you find this code useful, please star the repository.
     * [Locally Linear Embedding](LocallyLinearEmbedding/LLE.md)
     * [Gaussian Mixture Models](GaussianMixtureModels/GMM.md)
     * [K-Means Clustering](KMeansClustering/KMeans.md)
-    * [Principal Component Analysis](PrincipalComponentAnalysis/PCA.md)
+    * [Principal Component Analysis](PrincipalComponentAnalysis/PCA.py)
     * Agglomerative Clustering
    
    * Supervised Learning
