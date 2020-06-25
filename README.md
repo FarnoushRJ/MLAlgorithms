@@ -8,7 +8,7 @@ If you find this code useful, please star the repository.
     * [Locally Linear Embedding](LocallyLinearEmbedding/LLE.md)
     * [Gaussian Mixture Models](GaussianMixtureModels/GMM.md)
     * [K-Means Clustering](KMeansClustering/KMeans.md)
-    * Principal Component Analysis
+    * [Principal Component Analysis](PrincipalComponentAnalysis/PCA.md)
     * Agglomerative Clustering
    
    * Supervised Learning
@@ -21,7 +21,7 @@ If you find this code useful, please star the repository.
 - [x] Locally Linear Embedding
 - [x] Gaussian Mixture Models
 - [x] K-Means Clustering
-- [ ] Principal Component Analysis
+- [X] Principal Component Analysis
 - [ ] Linear Regression
 - [ ] Kernel Ridge Regression
 - [ ] Support Vector Machines
