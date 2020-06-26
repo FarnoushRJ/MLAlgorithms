@@ -2,6 +2,12 @@
     <img src="logo.svg" height="300" title="My ML Repository Logo">
  </p>
  
+<p align="center">
+ <img src="https://img.shields.io/github/last-commit/FarnoushRJ/MLAlgorithms/master?color=green&style=for-the-badge">
+ <img src="https://img.shields.io/static/v1?label=python&message=3.6&color=blue&style=for-the-badge">
+ <img src="https://img.shields.io/github/repo-size/FarnoushRJ/MLAlgorithms?color=yellow&style=for-the-badge">
+</p>
+
 ***
   
 Python Implementation of Various Machine Learning Algorithms. 
@@ -34,4 +40,4 @@ If you find this code useful, please star the repository.
 - [ ] Agglomerative Clustering
 
 ## License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/github/license/FarnoushRJ/MLAlgorithms?color=blueviolet&style=for-the-badge)](https://opensource.org/licenses/MIT)
